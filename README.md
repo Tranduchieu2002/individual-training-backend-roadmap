@@ -624,11 +624,9 @@ Review criteria:
 - Pipeline runs in < 10 minutes
 - Zero-downtime deployment
 - Rollback works in < 2 minutes
-```
-
-#### Week 7: Docker & Kubernetes
+---
+#### WEEk 7: Docker & Kubernetes
 **Assignment:**
-```
 TASK: Containerize & Orchestrate Service
 
 Part 1: Optimize Docker Image
@@ -708,20 +706,16 @@ Review criteria:
 - Image size < 50MB
 - Zero downtime during updates
 - Auto-scaling works under load
-```
-
 **Weekly Milestone:**
 - [ ] CI/CD pipeline running smoothly
 - [ ] Docker image optimized
 - [ ] Service running on Kubernetes
 - [ ] Deployment automation complete
-
 ---
 
 ### **WEEK 8: Performance & Scalability**
 
 **Assignment:**
-```
 TASK: Performance Optimization Challenge
 
 Service: Real-time Notification System
