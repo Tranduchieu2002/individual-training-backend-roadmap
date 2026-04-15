@@ -9,7 +9,7 @@
 - Ship production-ready code độc lập
 - Design và implement features end-to-end
 - Debug và optimize hệ thống phức tạp
-- Collaborate hiệu quả trong team
+- Collaborate hiệu quả trong teamf**Weekly Milestone:**
 
 **Format:**
 - 40 giờ/tuần (8h coding + review + meetings)
@@ -278,8 +278,8 @@ func ApplyPromoCode(userID, code string) error {
     return nil
 }
 ```
-
 Your Tasks:
+```
 1. Write test reproducing race condition (concurrent requests)
 2. Propose 3 solutions:
    a) Pessimistic locking (SELECT FOR UPDATE)
@@ -289,7 +289,7 @@ Your Tasks:
 3. Implement ALL 3 solutions in separate branches
 4. Benchmark each solution (throughput, latency)
 5. Write RFC comparing trade-offs
-
+```
 Deliverable:
 - 3 PRs (one per solution)
 - Load test results (use k6/JMeter)
@@ -299,7 +299,6 @@ Review criteria:
 - All solutions prevent race condition
 - Performance benchmarks accurate
 - RFC reasoning sound (consider scale, complexity, ops)
-```
 
 **Weekly Milestone:**
 - [ ] Optimize ≥ 3 slow queries to < 100ms
@@ -318,7 +317,6 @@ Review criteria:
 - Log aggregation (ELK stack overview)
 
 **Assignment:**
-```
 TASK: Add Observability to Service
 
 Service: Order Processing System
@@ -364,11 +362,9 @@ Review criteria:
 - Logs contain enough context for debugging
 - Metrics cover key business + technical KPIs
 - Dashboard useful for on-call engineers
-```
 
 #### Day 4-5: Debugging Production Issues
 **Simulation Exercise:**
-```
 INCIDENT SIMULATION: "Orders Processing Slowing Down"
 
 Setup:
@@ -412,7 +408,7 @@ Review criteria:
 - Mitigation effective
 - Post-mortem thorough
 - Lessons learned documented
-```
+
 
 **Weekly Milestone:**
 - [ ] Service fully instrumented (logs + metrics + traces)
@@ -442,7 +438,7 @@ Problem:
 - Deploy takes 2 hours (full regression test)
 - One bug in checkout breaks entire site
 - Team of 50 engineers stepping on each other
-
+```
 Your Task: Propose Migration to Microservices
 
 Deliverable: Architecture Design Doc (ADD)
@@ -484,7 +480,7 @@ Review criteria:
 - Migration plan realistic
 - Trade-offs clearly explained
 - Risks identified with mitigation
-```
+
 
 #### Day 3-5: Caching Strategies
 **Assignment:**
@@ -556,7 +552,7 @@ Review criteria:
 - P95 latency < 50ms achieved
 - Cache hit rate > 90%
 - Edge cases handled properly
-```
+
 
 **Weekly Milestone:**
 - [ ] Complete architecture design doc
@@ -808,7 +804,6 @@ Non-Functional Requirements:
 Week 9-10: Backend implementation
 Week 11: Frontend + Integration
 Week 12: Load testing + Presentation
-```
 
 ---
 
@@ -926,8 +921,6 @@ Review criteria:
 - Metrics well-defined
 - A/B test statistically sound
 - Edge cases handled
-```
-
 ---
 
 ### **WEEK 12: Final Demo & Retrospective**
